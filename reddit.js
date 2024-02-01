@@ -11,5 +11,6 @@
 // ==/UserScript==
 
 if(window.location.href.indexOf('www.reddit.com') > -1){
+    if(window.location.href.indexOf('preview.redd.it') > -1) return;
     window.location.replace(window.location.toString().replace('www', 'new'));
 }
