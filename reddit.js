@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Reddit *New* UI
 // @namespace    http://https://github.com/SchwarzXia/
-// @version      0.1
+// @version      0.2
 // @description  Reverting reddit to "new" UI
 // @author       DarkFlow
 // @match        *://*.reddit.com/*
