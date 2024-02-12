@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Reddit *New* UI
 // @namespace    http://https://github.com/SchwarzXia/
-// @version      0.2
+// @version      0.3
 // @description  Reverting reddit to "new" UI
 // @author       DarkFlow
 // @match        *://*.reddit.com/*
@@ -12,5 +12,6 @@
 
 if(window.location.href.indexOf('www.reddit.com') > -1){
     if(window.location.href.indexOf('preview.redd.it') > -1) return;
+    if(window.location.href.indexOf('i.redd.it') > -1) return;
     window.location.replace(window.location.toString().replace('www', 'new'));
 }
